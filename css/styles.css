@@ -57,6 +57,7 @@ body {
 .hero-section {
   margin: 0;
   padding: 200px 0;
+  background-color: silver;
 }
 .hero-title {
   font-weight: 900;
@@ -82,7 +83,7 @@ body {
 /* main specialozation section */
 .main-specialization-section {
   margin: 0;
-  padding: 95px 0;
+  padding: 94px 0;
 }
 .main-specialization-title {
   font-weight: bold;
@@ -104,7 +105,7 @@ body {
 /* what we do section */
 .what-we-do-section {
   margin: 0;
-  padding: 95px 0;
+  padding: 94px 0;
 }
 .main-section-title {
   font-weight: bold;
@@ -118,7 +119,7 @@ body {
 /* team section */
 .section-team {
   margin-bottom: 0;
-  padding: 95px 0;
+  padding: 94px 0;
 }
 .team-section-title {
   font-weight: 500;
@@ -140,6 +141,7 @@ body {
 }
 /* footer */
 .footer-section {
+  margin: 0;
   padding: 60px 0;
   background-color: silver;
 }
@@ -162,15 +164,26 @@ body {
 .footer-link {
   color: #757575;
 }
-.btn {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+
+/* portfolio */
+.header-portfolio {
+  margin: 0px;
+}
+.menu-section {
+  display: flex;
+  margin: 0;
+  padding: 50 0 94 0;
+}
+.project-section {
+  margin-bottom: 0;
+  padding: 94px 0;
+}
+.project-section-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-section-list > .project-section-item {
+  flex-basis: calc(100% / 3);
 }
 .project-section-title {
   font-weight: bold;
@@ -186,7 +199,17 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 4px;
+}
+
+/* features */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
 }
 .fff {
   color: #ffffff;
@@ -216,22 +239,13 @@ body {
   overflow: hidden;
   margin: 0px;
 }
-.header-portfolio {
-  margin: 0px;
-}
-.menu-section {
-  margin: 0;
-  padding: 50 0 95 0;
-}
-.project-section {
-  margin-bottom: 0;
-  padding: 95px 0;
-}
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 2px solid red;
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
