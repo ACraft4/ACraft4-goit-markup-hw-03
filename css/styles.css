@@ -18,7 +18,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
 }
 .fff {
   color: #ffffff;
@@ -189,9 +188,11 @@ body {
 }
 .what-we-do-section-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .what-we-do-section-item {
   margin-right: 30px;
+  font-size: 0;
 }
 .what-we-do-section-item:nth-last-child(1) {
   margin-right: 0;
@@ -322,6 +323,6 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   margin-top: 4px;
 }
