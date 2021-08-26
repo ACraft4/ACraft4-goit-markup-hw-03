@@ -188,6 +188,7 @@ body {
 /* what we do section */
 .what-we-do-section {
   margin: 0;
+  padding-bottom: 94px;
 }
 .what-we-do-section-list {
   display: flex;
@@ -268,7 +269,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
 }
 .footer-item {
   margin-bottom: 9px;
@@ -276,8 +276,12 @@ body {
 .footer-item:nth-last-child(1) {
   margin-bottom: 0;
 }
-.footer-link {
+
+.footer-map {
   color: #ffffff;
+}
+.footer-link {
+  color: #757575;
 }
 
 /* portfolio */
